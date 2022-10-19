@@ -1,0 +1,17 @@
+.textInputField {
+    border: 1px solid var(--grey);
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.fieldWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.fieldError {
+    color: var(--red);
+    font-size: 12px;
+    margin-top: 5px;
+}

@@ -1,0 +1,40 @@
+  .paginationItem {
+    border: 1px solid var(--grey);
+    border-radius: 16px;
+    line-height: 16px;
+    margin: 5px;
+    min-width: 16px;
+    padding: 5px;
+  }
+  
+  .paginationItem:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+    fill: var(--white);
+  }
+  
+  .paginationPadding {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 28px;
+  } 
+  
+  .activeItem {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--white);
+  }
+
+  .button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    height: 100%;
+    font: inherit;
+    outline: inherit;
+    padding: 0;
+    width: 100%;
+  }

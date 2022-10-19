@@ -1,0 +1,29 @@
+.movieListContainer {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 17%);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .movieListContainer {
+        grid-template-columns: repeat(5, 20%);
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .movieListContainer {
+        grid-template-columns: repeat(3, 33%);
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .movieListContainer {
+        grid-template-columns: repeat(2, 50%);
+}
+}
+
+@media screen and (max-width: 576px){
+    .movieListContainer {
+        grid-template-columns: repeat(1, 100%);
+}
+}
